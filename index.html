@@ -8,16 +8,28 @@
     <meta name="description" content="responsive header" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <div class="header">
+      <i class="fas fa-bars"></i>
       <ul class="list">
         <a href="#"><li class="items">Home</li></a>
         <a href="#"><li class="items">About</li></a>
         <a href="#"><li class="items">Mission</li></a>
         <a href="#"><li class="items">Team</li></a>
       </ul>
+    </div>
+    <!-- mobile version -->
+    <div class="modal">
+      <li class="mobile-items"><a href="#">Home</a></li>
+      <li class="mobile-items"><a href="#">About</a></li>
+      <li class="mobile-items"><a href="#">Mission</a></li>
+      <li class="mobile-items"><a href="#">Team</a></li>
     </div>
   </body>
 </html>
